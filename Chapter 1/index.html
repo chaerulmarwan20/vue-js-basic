@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container" id="app">
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light" v-if="cart.length > 0">
         <div class="navbar-text ms-auto">
           <b>cart:</b>
           <span class="badge bg-success">{{ cart.length }}</span>
